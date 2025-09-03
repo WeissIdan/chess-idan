@@ -1,11 +1,11 @@
 #pragma once
 #include "Piece.h"
-class Plaeyr;
+class Player;
 class Board;
 class Queen : public Piece
 {
 public:
-	Queen(Player*, int row, int col, Board*);
+	Queen(Player* player, int row, int col, Board* board);
 	virtual bool isLegalMove(int, int) const;
 
 private:

@@ -1,6 +1,15 @@
 #include "Board.h"
 #include <iostream>
 #include <cstring>
+#include "Piece.h"
+#include "Player.h"
+#include "Rook.h"
+#include "Knight.h"
+#include "Bishop.h"
+#include "Queen.h"
+#include "King.h"
+#include "Pawn.h"
+#include "NullPiece.h"
 
 Board::Board(Player* p1, Player* p2)
     : _lastSrcRow(-1), _lastSrcCol(-1), _lastDstRow(-1), _lastDstCol(-1), _lastPiece(nullptr)
@@ -81,7 +90,7 @@ bool Board::isPieceOfPlayer(int row, int col, Player* pl) const
 {
     if (row < 0 || row >= BOARD_SIZE || col < 0 || col >= BOARD_SIZE)
         return false;
-    if (_brd[row][col] && _brd[row][col]->_player == pl)
+    if (_brd[row][col] && _brd[row][col]->getPlayer() == pl)
         return true;
     return false;
 }
@@ -96,8 +105,6 @@ bool Board::tryMove(int srcRow, int srcCol, int dstRow, int dstCol) const
     if (!piece)
         return false;
     if (!piece->isLegalMove(dstRow, dstCol))
-        return false;
-    if (!piece->isWayFree(dstRow, dstCol))
         return false;
     return true;
 }

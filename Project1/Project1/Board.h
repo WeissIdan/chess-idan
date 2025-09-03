@@ -1,14 +1,6 @@
 #pragma once
 
-#include "Piece.h"
-#include "Player.h"
-#include "Rook.h"
-#include "Knight.h"
-#include "Bishop.h"
-#include "Queen.h"
-#include "King.h"
-#include "Pawn.h"
-#include "NullPiece.h"
+
 
 
 #define BOARD_SIZE 8
