@@ -7,6 +7,11 @@ Queen::Queen(Player* player, int row, int col, Board* board)
 
 bool Queen::isLegalMove(int row, int col) const
 {
-    // Implement Queen-specific move logic here
+    if ((row == _row && col != _col) || (col == _col && row != _row)) {
+        return isWayFree(row, col);
+    }
+    else if (abs(row - _row) == abs(col - _col)) {
+        return isWayFree(row, col);
+    }
     return false;
 }

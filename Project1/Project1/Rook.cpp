@@ -7,6 +7,8 @@ Rook::Rook(Player* player, int row, int col, Board* board)
 
 bool Rook::isLegalMove(int row, int col) const
 {
-    // Implement Rook-specific move logic here
+    if ((row == _row && col != _col) || (col == _col && row != _row)) {
+        return isWayFree(row, col);
+    }
     return false;
 }
