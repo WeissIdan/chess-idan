@@ -1,24 +1,271 @@
 ﻿  Bishop.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Bishop.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Bishop.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Bishop.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Bishop.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Bishop.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Bishop.cpp')
+  
+  Board.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Board.cpp(84,41): error C2248: 'Piece::_player': cannot access protected member declared in class 'Piece'
+      C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Piece.h(25,10):
+      see declaration of 'Piece::_player'
+      C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Piece.h(11,7):
+      see declaration of 'Piece'
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Board.cpp(100,17): error C2248: 'Piece::isWayFree': cannot access protected member declared in class 'Piece'
+      C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Piece.h(33,7):
+      see declaration of 'Piece::isWayFree'
+      C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Piece.h(11,7):
+      see declaration of 'Piece'
+  
   King.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'King.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'King.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'King.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'King.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'King.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'King.cpp')
+  
   Knight.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Knight.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Knight.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Knight.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Knight.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Knight.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Knight.cpp')
+  
   Manager.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(9,7): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(9,9): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(9,9): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(8,8): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Manager.cpp')
+  
   NullPiece.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'NullPiece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'NullPiece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'NullPiece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'NullPiece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'NullPiece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'NullPiece.cpp')
+  
   Pawn.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Pawn.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Pawn.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Pawn.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Pawn.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Pawn.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Pawn.cpp')
+  
   Piece.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Piece.cpp')
+  
   Player.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(9,7): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(9,9): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(9,9): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(8,8): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Player.cpp')
+  
   Queen.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Queen.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Queen.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Queen.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Queen.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Queen.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Queen.cpp')
+  
   Rook.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Rook.cpp')
+  
   Source.cpp
-  stdafx.cpp
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(6,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Rook.h(9,7): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Knight.h(9,9): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(6,23): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Bishop.h(9,9): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(5,22): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Queen.h(8,8): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\King.h(10,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\Pawn.h(7,21): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
+C:\Users\User\Documents\chess\chess-idan\Project1\Project1\NullPiece.h(5,26): error C2504: 'Piece': base class undefined
+  (compiling source file 'Source.cpp')
+  
   Generating Code...
-King.obj : error LNK2019: unresolved external symbol "public: class Piece * * __cdecl Board::getBoard(void)const " (?getBoard@Board@@QEBAPEAPEAVPiece@@XZ) referenced in function "public: bool __cdecl King::isChess(void)" (?isChess@King@@QEAA_NXZ)
-Piece.obj : error LNK2001: unresolved external symbol "public: class Piece * * __cdecl Board::getBoard(void)const " (?getBoard@Board@@QEBAPEAPEAVPiece@@XZ)
-Manager.obj : error LNK2019: unresolved external symbol "public: __cdecl Board::Board(class Player *,class Player *)" (??0Board@@QEAA@PEAVPlayer@@0@Z) referenced in function "public: __cdecl Manager::Manager(class Pipe &)" (??0Manager@@QEAA@AEAVPipe@@@Z)
-Manager.obj : error LNK2019: unresolved external symbol "public: __cdecl Board::~Board(void)" (??1Board@@QEAA@XZ) referenced in function "public: void * __cdecl Board::`scalar deleting destructor'(unsigned int)" (??_GBoard@@QEAAPEAXI@Z)
-Manager.obj : error LNK2019: unresolved external symbol "public: void __cdecl Board::print(void)const " (?print@Board@@QEBAXXZ) referenced in function "public: void __cdecl Manager::playGame(void)" (?playGame@Manager@@QEAAXXZ)
-Manager.obj : error LNK2019: unresolved external symbol "public: void __cdecl Board::getString(char * const)const " (?getString@Board@@QEBAXQEAD@Z) referenced in function "public: void __cdecl Manager::playGame(void)" (?playGame@Manager@@QEAAXXZ)
-Manager.obj : error LNK2019: unresolved external symbol "public: bool __cdecl Board::isPieceOfPlayer(int,int,class Player *)const " (?isPieceOfPlayer@Board@@QEBA_NHHPEAVPlayer@@@Z) referenced in function "public: int __cdecl Manager::playMove(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?playMove@Manager@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Manager.obj : error LNK2019: unresolved external symbol "public: bool __cdecl Board::tryMove(int,int,int,int)const " (?tryMove@Board@@QEBA_NHHHH@Z) referenced in function "public: int __cdecl Manager::playMove(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?playMove@Manager@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Manager.obj : error LNK2019: unresolved external symbol "public: void __cdecl Board::Move(int,int,int,int)" (?Move@Board@@QEAAXHHHH@Z) referenced in function "public: int __cdecl Manager::playMove(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?playMove@Manager@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Manager.obj : error LNK2019: unresolved external symbol "public: void __cdecl Board::undoLastMove(void)" (?undoLastMove@Board@@QEAAXXZ) referenced in function "public: int __cdecl Manager::playMove(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?playMove@Manager@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-C:\Users\User\Documents\chess\chess-idan\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 9 unresolved externals

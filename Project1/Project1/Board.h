@@ -2,6 +2,13 @@
 
 #include "Piece.h"
 #include "Player.h"
+#include "Rook.h"
+#include "Knight.h"
+#include "Bishop.h"
+#include "Queen.h"
+#include "King.h"
+#include "Pawn.h"
+#include "NullPiece.h"
 
 
 #define BOARD_SIZE 8
@@ -10,6 +17,13 @@ using namespace std;
 
 class Player;
 class Piece;
+class Rook;
+class Knight;
+class Bishop;
+class Queen;
+class King;
+class Pawn;
+
 
 class Board
 {

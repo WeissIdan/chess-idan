@@ -1,7 +1,7 @@
-
-
+#pragma once
 #include "Piece.h"
-
+class Plaeyr;
+class Board;
 class Queen : public Piece
 {
 public:
