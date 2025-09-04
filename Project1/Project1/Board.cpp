@@ -129,8 +129,10 @@ void Board::Move(int srcRow, int srcCol, int dstRow, int dstCol)
 
     _brd[dstRow][dstCol] = _brd[srcRow][srcCol];
     _brd[srcRow][srcCol] = nullptr;
-    if (_brd[dstRow][dstCol])
+    if (_brd[dstRow][dstCol]) {
         _brd[dstRow][dstCol]->setPosition(dstRow, dstCol);
+        _brd[srcRow][srcCol] = new NullPiece(srcRow, srcCol);
+    }
 }
 
 void Board::undoLastMove()

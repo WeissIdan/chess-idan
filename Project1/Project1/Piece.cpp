@@ -109,7 +109,8 @@ bool Piece::isWayFree(int dstRow, int dstCol) const
 
 	for (i = startRow + 1, j = startCol+num; i < endRow ; ++i)
 	{
-		currPiece = *(matBoard + i * 8 + j);
+		Piece** p= matBoard + i * 8 + j;
+		currPiece = *(p);
 
 		// check if the board in the place contains null piece
 		if (currPiece->getPlayer() != NULL)
