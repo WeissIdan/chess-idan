@@ -1,14 +1,2 @@
-﻿  Bishop.cpp
-  Board.cpp
-  King.cpp
-  Knight.cpp
-  Manager.cpp
-  NullPiece.cpp
-  Pawn.cpp
-  Piece.cpp
-  Player.cpp
-  Queen.cpp
-  Rook.cpp
-  Source.cpp
-  Generating Code...
+﻿  Pawn.cpp
   Project1.vcxproj -> C:\Users\User\Documents\chess\chess-idan\Project1\x64\Debug\Project1.exe

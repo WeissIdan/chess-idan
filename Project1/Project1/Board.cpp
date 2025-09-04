@@ -45,7 +45,9 @@ Board::Board(Player* p1, Player* p2)
     _brd[7][3] = new Queen(p1, 7, 3, this);
     // Kings
     _brd[0][4] = new King(p2, 0, 4, this);
+	p2->setKing((King*)_brd[0][4]);
 	_brd[7][4] = new King(p1, 7, 4, this);
+    p1->setKing((King*)_brd[7][4]);
 }
 
 Board::~Board()

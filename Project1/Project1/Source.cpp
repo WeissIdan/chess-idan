@@ -8,7 +8,7 @@ using namespace std;
 void runGraphics()
 {
 	
-//	system("d:\\users\\user-pc\\desktop\\e.exe.lnk");
+	system("C:\\Users\\User\\Downloads\\chessGraphics.exe");
 		
 
 }
